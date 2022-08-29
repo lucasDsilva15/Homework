@@ -464,11 +464,11 @@
 
 
 //1.
-// let cat1 = {
-//     name: 'lily',
-//     breed: 'Persian',
-//     age: 5
-// }
+let cat1 = {
+    name: 'lily',
+    breed: 'Persian',
+    age: 5
+}
 // console.log(cat1.name, cat1.breed)
 
 //2.
@@ -488,6 +488,7 @@
 //     return catCombo
 // }
 // console.log(combineCats(cat1, cat2))
+// console.log(combineCats(combineCats(cat1 , cat2), combineCats(cat1 , cat2)))
 
 //4.
 // console.log(combineCats(combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2)), combineCats(combineCats(cat1, cat2), combineCats(cat1,cat2))))
