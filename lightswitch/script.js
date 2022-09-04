@@ -1,21 +1,25 @@
-let body = document.querySelector('.containerbottom')
-let button = document.querySelector('button')
-let title = document.querySelector(".container")
+let body = document.querySelector('.containerbottom');
+let button = document.querySelector('button');
+let title = document.querySelector(".container");
+let image = title.querySelectorAll("img");
+let container = document.querySelector('.lightswitch')
+let lightSwitch = body.querySelector('img')
 
-if ( body.classList != 'black'){
-    button.addEventListener ('click', changeLights)
+let text = 'lights off';
+    container.addEventListener ('click', changeLights)
         function changeLights () {
             body.classList.toggle('black')
-            title.classList.toggle('black') 
-            button.textContent = 'lights on'         
-}
-}else if (body.classList = 'black'){
-    button.addEventListener ('click', changeDark)
-        function changeDark () {
-            body.classList.toggle('black')
-            title.classList.toggle('black')
-            button.textContent = 'lights off'
-}
-
-}
-console.log(button.textContent)
+            title.classList.toggle('black')  
+            if (text === 'lights off'){
+                text = 'Lights on'
+                lightSwitch.src = 'Images/light-switch-off.png'
+                image.forEach((element) => element.src = "Images/light-bulb-on.png"
+                )
+                
+            } else {
+                text = 'lights off'
+                lightSwitch.src = 'Images/light-switch-on.png'
+                image.forEach((element) => element.src = "Images/light-bulb-off.png"
+                )
+            }   
+        }
