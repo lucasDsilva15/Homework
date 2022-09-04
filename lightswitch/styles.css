@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+/*
+when done styling remember to change backgroudn back to black
+and text to white
+*/
+.container{
+    z-index: 20px;
+    display: flex;
+    height: 100px;
+    background-color: white;
+    justify-content: center;
+    flex-wrap: flex-start, wrap;
+    font-size: 35px;
+    gap: 20px;
+    
+}
+.lights{
+    z-index: 10px;
+    color: black
+}
+
+img {
+    mix-blend-mode: multiply;
+}
+
+.containerbottom {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+button{
+    align-self: center;
+
+}
+.black {
+    background-color: black;
+    color: white
+}
+.white {
+    background-color: white;
+    color: black
+}
