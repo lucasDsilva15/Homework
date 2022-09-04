@@ -7,6 +7,7 @@ body {
     height: 100px;
     background-color: white;
     justify-content: center;
+    flex-direction: row;
     font-size: 35px;
     gap: 20px;   
 }
@@ -19,23 +20,25 @@ img {
 }
 .containerbottom {
     background-color: white;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
-    align-content: center;   
+    align-items: space-around;
+    flex-wrap: row nowrap;
+    margin: 100px
 }
 .black {
     background-color: #36454f;
     color: white
 }
 .lightswitch{
-    margin-top: 220px;
-    margin-right: 30px;
-    height: 400px;
-    width: 200px;
+    margin-right: 20px;
+    margin-top: 150px;
+    height: 210px;
+    width: 80px;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     position: absolute;
     cursor: pointer
 }
@@ -58,4 +61,8 @@ background: linear-gradient(90deg, rgba(244,6,6,1) 0%, rgba(9,39,121,1) 50%, rgb
 }
 .color0{
 background: linear-gradient(90deg, rgba(163,9,200,1) 40%, rgba(46,156,149,1) 100%);
+}
+.pepe{
+    height: 600px;
+    width: 600px;
 }
