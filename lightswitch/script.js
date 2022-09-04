@@ -6,6 +6,7 @@ let container = document.querySelector('.lightswitch')
 let lightSwitch = body.querySelector('img')
 let buttoncont = document.querySelector('.buttoncont')
 let rgb = buttoncont.querySelector('button')
+
 let text = 'lights on';
 
 container.addEventListener ('click', changeLights)
@@ -16,7 +17,8 @@ function changeLights () {
         if (text === 'lights on'){
             text = 'lights off'
             lightSwitch.src = 'Images/light-switch-off.png'
-            image.forEach((element) => element.src = "Images/light-bulb-off.png")
+            image.forEach((element) => element.src = "Images/light-bulb-off.png", 
+            element.alt = "light bulb off" )
                 
         } else if (text === 'lights off'){
             text = 'lights on'
