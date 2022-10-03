@@ -5,7 +5,7 @@ class Show extends React.Component{
     render(){
         const {logs} = this.props
         return(
-            <DefaultLayout title={`${logs.title}`} group='/logs'>
+            <DefaultLayout title={logs.title} group='/logs'>
                 <h1> {logs.title} </h1>
                 <p>
                     {logs.entry}
