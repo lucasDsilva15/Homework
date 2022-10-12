@@ -1,0 +1,92 @@
+#Mainpage{
+  display: flex;
+  flex-direction: row;
+
+}
+nav{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 90vh;
+ width: 15vw;
+ margin: 20px;
+ background-color: darkgray;
+}
+#rightside{
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  height: 92vh;
+}
+#top{
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-evenly;
+  width: 80vw;
+  height: fit-content
+}
+#reviews{
+  width: 20vw;
+  background-color: darkgray;
+  height: 30vh
+}
+#rating{
+  width: 20vw;
+  background-color: darkgray;
+  height: 30vh
+}
+#analysis{
+  width: 20vw;
+  background-color: darkgray;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+h1{
+  font-size: 17px;
+  padding-left: 5px;
+  align-self: flex-start;
+}
+.num{
+  font-size: 40px;
+  padding-left: 5px;
+}
+#list{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  padding: 10px;
+}
+numb{
+  padding-top: 15px ;
+}
+#visitorspanel{
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 70.2vw;
+  margin-left: 6%;
+  margin-top: 2%;
+  background-color: darkgray;
+}
+#graph{
+  align-self: center;
+  background-color: gray;
+  height: 65%;
+  width: 80%
+}
+#visitors{
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  margin: 10px
+}
+
+
+
+
+
