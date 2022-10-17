@@ -19,7 +19,7 @@ export default function Score ({question}) {
     }
      return(
         <>
-        <h1>Current Score: {score} </h1>
+        <h1><span>Current Score:</span> {score} </h1>
         <div id='scorebuttons'>
             <button id='scoreup' onClick={scoreUp}>Add Points</button>
             <button id='scoredown' onClick={scoreDown}>Deduct Points</button>

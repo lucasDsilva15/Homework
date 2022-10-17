@@ -11,9 +11,9 @@ export default function Questions ({question}) {
     function loadedQuestion() {
         return(
             <>
-            <h2> Catergory: {question.category.title.toString()}</h2>
-            <h2> Value: {question.value}</h2>
-            <h1>Answer: {question.question} </h1>
+            <h2> <span>Catergory:</span> {question.category.title.toString()}</h2>
+            <h2> <span>Value:</span> {question.value}</h2>
+            <h1> <span>Answer:</span> {question.question} </h1>
             </>
         )  
     }
