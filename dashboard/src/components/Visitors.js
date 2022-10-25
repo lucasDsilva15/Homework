@@ -1,8 +1,9 @@
-function Visitors () {
+import data from "./data"
+function Visitors (props) {
     return(
         <div id='visitors'>
             <h1>Website Visitors</h1>
-            <num className='num'> 821 </num>
+            <span className='num'> {data.visitors} </span>
         </div>
     )
 }

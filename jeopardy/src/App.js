@@ -5,7 +5,6 @@ import Questions from './components/Questions';
 import Score from './components/Score';
 
 function App() {
-
   let [question, setQuestion] = useState('')
   let [answer , setAnswer] = useState('')
   

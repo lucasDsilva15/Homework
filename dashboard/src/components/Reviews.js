@@ -1,10 +1,10 @@
-function Reviews () {
+import data from './data'
+function Reviews (props) {
     return(
         <div id='reviews'>
             <h1> Reviews </h1>
-            <num className="num"> 1,281 </num>   
-        </div>
-            
+            <span className="num"> {data.reviews} </span>   
+        </div>    
     )
 }
 export default Reviews
